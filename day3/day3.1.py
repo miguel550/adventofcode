@@ -17,7 +17,7 @@ with open('./day3.0.txt') as f:
             continue
 
         if i % 2 == 0:
-            curr_col_12 = (1 + curr_col_12) % len(l.strip)
+            curr_col_12 = (1 + curr_col_12) % len(l.strip())
             if l[curr_col_12] == '#':
                 trees_12 += 1
 
